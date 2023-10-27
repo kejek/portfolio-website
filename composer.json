@@ -52,6 +52,10 @@
             "./vendor/bin/pint --test",
             "./node_modules/.bin/blade-formatter \"./resources/**/*.blade.php\" -c -d",
             "@php artisan test"
+        ],
+        "format": [
+            "./vendor/bin/pint",
+            "./node_modules/.bin/blade-formatter \"./resources/**/*.blade.php\" --write"
         ]
     },
     "extra": {
