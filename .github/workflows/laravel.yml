@@ -127,7 +127,7 @@ jobs:
       - name: "install dependencies"
         run: composer install --prefer-dist
 
-      - name: "copy .env.example to .env"
+      - name: "copy .env.testing to .env"
         run: cp .env.testing .env
 
       - name: "set the application key"
