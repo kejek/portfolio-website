@@ -1,36 +1,28 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
-    <title>Matthew Goldsworthy</title>
-    <meta name="title" content="Matthew Goldsworthy" />
-    <meta
-      name="description"
-      content="Laravel Developer • Learner Although A Software Engineer looking forward to Share and Gain knowledgeable stuff"
-    />
-    <meta
-      name="keywords"
-      content="Matt Goldsworthy , Matthew Goldsworthy ,Matthew, Goldsworthy ,Software Engineer, Laravel, Database, MySQL, PostgreSQL, Livewire, RESTful API,Tailwind,"
-    />
-    <meta name="author" content="Pt. Prashant Tripathi" />
-    <meta name="language" content="English" />
-    <meta name="copyright" content="Pt. Prashant Tripathi © 2023 " />
-    <meta name="robots" content="index, follow" />
-    <link rel="shortcut icon" href="favicon.ico" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>Matthew Goldsworthy</title>
+<meta name="title" content="Matthew Goldsworthy" />
+<meta name="description"
+    content="Laravel Developer • Learner Although A Software Engineer looking forward to Share and Gain knowledgeable stuff" />
+<meta name="keywords"
+    content="Matt Goldsworthy , Matthew Goldsworthy ,Matthew, Goldsworthy ,Software Engineer, Laravel, Database, MySQL, PostgreSQL, Livewire, RESTful API,Tailwind," />
+<meta name="author" content="Pt. Prashant Tripathi" />
+<meta name="language" content="English" />
+<meta name="copyright" content="Pt. Prashant Tripathi © 2023 " />
+<meta name="robots" content="index, follow" />
+<link rel="shortcut icon" href="favicon.ico" />
 
-    <meta name="application-name" content="Matt Goldsworthy - Portfolio&nbsp;" />
-    
-    <meta
-      property="og:description"
-      content="Laravel Developer • Learner Although A Software Engineer looking forward to Share and Gain knowledgeable stuff"
-    />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+<meta name="application-name" content="Matt Goldsworthy - Portfolio&nbsp;" />
 
-    @vite(['resources/css/app.css', 'resources/css/style.css', 'resources/js/app.js', 'resources/js/repo.js'])
+<meta property="og:description"
+    content="Laravel Developer • Learner Although A Software Engineer looking forward to Share and Gain knowledgeable stuff" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
+
+@vite(['resources/css/app.css', 'resources/css/style.css', 'resources/js/app.js', 'resources/js/repo.js'])
 
 <head>
     <meta charset="utf-8">
