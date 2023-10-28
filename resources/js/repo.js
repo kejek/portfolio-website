@@ -1,4 +1,4 @@
-fetch("https://ik.imagekit.io/eelwnx7j9/repos.json?updatedAt=1698501284868")
+fetch("https://ik.imagekit.io/eelwnx7j9/repos.json?updatedAt=1698503955147")
   .then((res) => res.json())
   .then((data) => {
     let output = "";
@@ -24,8 +24,16 @@ fetch("https://ik.imagekit.io/eelwnx7j9/repos.json?updatedAt=1698501284868")
             </span>
             <a href="${ repo.url }">
               <h4 class="mt-15 mb-20">${repo.name}</h4>
-            </a>
-          </header>
+            </a>`;
+      if (repo.live_url !== 'none') {
+        output += `
+              <a href="${ repo.live_url }">
+                <span class="mt-15 mb-20">${ repo.live_url }</span>
+              </a>`;
+      }
+      output += `
+            <div class="h-10"></div>
+          </header> 
           <p class="mb-10">${ repo.description }</p>
         </article>
         <div class="flex flex-1 flex-col justify-between">
