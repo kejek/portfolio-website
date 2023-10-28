@@ -1,9 +1,8 @@
-fetch("repos.json")
+fetch("json/repos.json")
   .then((res) => res.json())
   .then((data) => {
     let output = "";
     data.forEach(function (repo) {
-
       output += `
       <div class="flex flex-col rounded-md border-2 bg-white flex-1">
         <img src="/img/github_banner.jpg">
