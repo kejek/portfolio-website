@@ -30,7 +30,7 @@
 <!-- Styles -->
 @livewireStyles
 
-@vite(['resources/css/app.css', 'resources/js/app.js'])
+@vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/repo.js'])
 
 <head>
     <meta charset="utf-8">
@@ -444,7 +444,6 @@
         </div>
     </div>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <script src="js/repo.js"></script>
     @livewireScripts
 </body>
 
