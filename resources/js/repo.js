@@ -1,12 +1,11 @@
-fetch("repos.json")
+fetch("https://ik.imagekit.io/eelwnx7j9/repos.json")
   .then((res) => res.json())
   .then((data) => {
     let output = "";
     data.forEach(function (repo) {
-
       output += `
       <div class="flex flex-col rounded-md border-2 bg-white flex-1">
-        <img src="/img/github_banner.jpg">
+        <img src="https://ik.imagekit.io/eelwnx7j9/github_banner.jpg">
         <!-- Article -->
         <article class="ml-10">
           <header>
@@ -32,9 +31,9 @@ fetch("repos.json")
         <div class="flex flex-1 flex-col justify-between">
           <div></div>
           <div class="flex" style="border-top: 1px solid rgb(156 163 175);">
-            <img class="mt-2 ml-10 mr-5"src="img/star.svg"/>
+            <img class="mt-2 ml-10 mr-5"src="https://ik.imagekit.io/eelwnx7j9/star.svg"/>
             <span class="mt-2">${ repo.stars }</span>
-            <img class="mt-2 mr-5 ml-5"src="img/fork.svg"/>
+            <img class="mt-2 mr-5 ml-5"src="https://ik.imagekit.io/eelwnx7j9/fork.svg"/>
             <span class="mt-2">${ repo.forks }</span>
           </div>
         </div>
