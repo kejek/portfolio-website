@@ -76,11 +76,6 @@
                     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
                         data-mdl-for="demo-menu-lower-right">
                         <li class="mdl-menu__item">
-                            <a href="https://drive.google.com/file/d/1Xl_qw2w7ZdO0EPtS4cTbf--Uv9LZXF46/view"><i
-                                    class="mdi mdi-download font-red pr-10"></i>Download
-                                Resume</a>
-                        </li>
-                        <li class="mdl-menu__item">
                             <a href="mailto:matt.j.goldsworthy@gmail.com"><i
                                     class="mdi mdi-email-open font-green pr-10"></i>Drop me
                                 an Mail</a>
@@ -215,10 +210,6 @@
                                                     Laravel Developer • Learner
                                                 </h5>
                                                 <div class="mt-30">
-                                                    <a id="download_cv"
-                                                        class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect bg-green font-white mr-10"
-                                                        href="https://drive.google.com/file/d/1Xl_qw2w7ZdO0EPtS4cTbf--Uv9LZXF46/view">download
-                                                        Resume</a>
                                                     <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect bg-blue font-white"
                                                         href="mailto:matt.j.goldsworthy@gmail.com"
                                                         data-scroll>contact</a>

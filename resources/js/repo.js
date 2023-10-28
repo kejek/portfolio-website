@@ -1,4 +1,4 @@
-fetch("https://ik.imagekit.io/eelwnx7j9/repos.json")
+fetch("https://ik.imagekit.io/eelwnx7j9/repos.json?updatedAt=1698501284868")
   .then((res) => res.json())
   .then((data) => {
     let output = "";
