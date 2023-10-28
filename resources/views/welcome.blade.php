@@ -5,7 +5,7 @@
 <title>Matthew Goldsworthy</title>
 <meta name="title" content="Matthew Goldsworthy" />
 <meta name="description"
-    content="Laravel Developer • Learner Although A Software Engineer looking forward to Share and Gain knowledgeable stuff" />
+    content="Laravel Developer • Learner A Software Engineer looking forward to Share and Gain knowledgeable stuff" />
 <meta name="keywords"
     content="Matt Goldsworthy , Matthew Goldsworthy ,Matthew, Goldsworthy ,Software Engineer, Laravel, Database, MySQL, PostgreSQL, Livewire, RESTful API,Tailwind," />
 <meta name="author" content="Pt. Prashant Tripathi" />
