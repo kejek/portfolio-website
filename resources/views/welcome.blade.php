@@ -77,7 +77,7 @@
                         data-mdl-for="demo-menu-lower-right">
                         <li class="mdl-menu__item">
                             <a
-                                href="https://drive.google.com/file/d/1J79L3laKdUfjyP44nHjJ6E50oFebs5if/view?usp=drivesdk"><i
+                                href="https://drive.google.com/file/d/1Xl_qw2w7ZdO0EPtS4cTbf--Uv9LZXF46/view"><i
                                     class="mdi mdi-download font-red pr-10"></i>Download
                                 Resume</a>
                         </li>
@@ -221,7 +221,7 @@
                                                         href="https://drive.google.com/file/d/1Xl_qw2w7ZdO0EPtS4cTbf--Uv9LZXF46/view">download
                                                         Resume</a>
                                                     <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect bg-blue font-white"
-                                                        href="#contact_sec" data-scroll>contact</a>
+                                                        href="mailto:matt.j.goldsworthy@gmail.com" data-scroll>contact</a>
                                                 </div>
                                             </div>
                                             <ul class="profile-wrap mt-50">
