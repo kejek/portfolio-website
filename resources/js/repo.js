@@ -1,11 +1,11 @@
-fetch("https://ik.imagekit.io/eelwnx7j9/repos.json?updatedAt=1698503955147")
+fetch("https://ik.imagekit.io/eelwnx7j9/repos.json?updatedAt=1698677829636")
   .then((res) => res.json())
   .then((data) => {
     let output = "";
     data.forEach(function (repo) {
       output += `
       <div class="flex flex-col rounded-md border-2 bg-white flex-1">
-        <img src="https://ik.imagekit.io/eelwnx7j9/github_banner.jpg">
+        <img src="${ repo.banner }">
         <!-- Article -->
         <article class="ml-10">
           <header>
